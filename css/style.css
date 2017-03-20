@@ -422,7 +422,6 @@ header{
         height: 1365px; 
      }
      .about-left{
-        /*height: 900px;*/
         height: 815px;
      }
      .galler{
@@ -447,7 +446,7 @@ header{
         font-size: 18px;
     }
     .neque-artics {
-        height: 330px;
+        height: 350px;
     }
     .art {
     height:2650px;
