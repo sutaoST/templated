@@ -1,0 +1,484 @@
+/*首页*/
+*{
+    margin:0;
+    padding:0;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 80%;
+    background: url(../images/banner.jpg) no-repeat center center/100% 100%;
+}
+.left-box{
+    width: 50px;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.ifcont{
+    width: 50px;
+    height:180px;}
+.house{
+    width:50px;
+    height:30px;
+    padding-top: 30px;
+}
+.house a{
+    cursor: pointer;
+}
+#cons{
+    color:#fff;
+    font-size: 30px;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+}
+#cons:hover{
+    color: #19B5FE;
+}
+.continue{
+    width: 86%;
+    height:400px;
+    margin:auto;
+    right: 0;
+    top:0;
+    left: 0;
+    position: absolute;
+    z-index:1;
+    animation:fadeIn 2s 1 0s;
+    -moz-animation:fadeIn 2s 1 0s;
+    padding-top: 10%;
+    overflow:hidden;
+}
+@-moz-keyframes fadeIn {
+    0% {
+    opacity: 0; /*初始状态 透明度为0*/
+    }
+    50% {
+    opacity: 0; /*中间状态 透明度为0*/
+    }
+    100% {
+    opacity: 1; /*结尾状态 透明度为1*/
+    }
+}
+
+.continue-head{
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+}
+.gallery{
+    font-size:28px;
+    color: #fff;
+    text-align: center;
+    margin:50px auto; 
+}
+.button-box{
+    width: 165px;
+    height: 60px;
+    margin:0 auto;
+}
+.button{
+    width: 165px;
+    height: 60px;
+    border-radius: 5px;
+    border:1px solid #554A3F;
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 20px;
+}
+.new{  
+    margin:50px auto;
+    font-size:30px;
+    text-align: center;
+}
+.slider-box{
+    width:93%;
+    height:600px;
+    margin:0 auto;
+    padding-left: 7%;  
+}
+.thumbs a{
+    display: block;
+    width:24%;
+   height: 300px;
+    float: left;
+    overflow: hidden;
+}
+.thumbs a img{
+    width: 100%;
+    height: 100%;
+    -moz-transition:all 0.5s linear 0.5s;
+         transition:all 0.5s linear 0.5s;  
+}
+.thumbs a:hover img{
+    -moz-transform: scale(1.2);
+         transform: scale(1.2);
+
+}
+.full{
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background:#19B5FE;
+    border-radius: 5px; 
+    margin:50px auto;
+}
+.about{
+    width:100%;
+    height:560px;
+    margin:0 auto;
+    background:#E6E6E6; 
+}
+.about-left{
+    width: 41%;
+    height: 407px;
+    padding: 4%;
+    padding-left: 5%;
+    float: left;
+    background: #E6E6E6;
+}
+.about-me{
+    font-size: 20px;
+}
+.about-articles{
+    width: 100%;
+    height: auto;
+    margin-top:30px;
+    font-size: 16px;
+}
+.icons-all{
+   width: 100%;
+   margin-top:30px;
+}
+#icn{
+    font-size: 30px;
+    color:#19B5FE; 
+}
+
+.about-right{
+    width:42%;
+    height: 407px;
+    float: left;
+    background: #ECECEC;
+    padding: 4%;
+}
+.ne{
+    width: 48%;
+    height:140px;
+    float: left;
+}
+.ne-head{
+    width: 100%;
+    height: 30px;
+    margin:20px auto;
+}
+.input_one{
+    width: 70%;
+    height: 40px;
+    outline: medium;
+    border:none;
+    border:1px solid #C5ECFE;
+}
+.meaasge{
+    width: 100%;
+    width: 100%;
+    height: 140px;
+}
+.meaasge-head{
+    margin:20px auto;
+    width: 100%;
+}
+.textarea{
+    width: 100%;
+    height: 140px;
+}
+.send-meaasge{
+    width: 147px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    background:#19B5FE;
+    color: #fff;
+    margin-top:70px; 
+}
+.footer{
+    width: 100%;
+    height:20px;
+    margin:20px auto;
+    text-align: center;
+    color: #BFBFBF;
+    clear: both;
+}
+.footer a{
+    color:#19B5FE;
+    text-decoration: underline; 
+}
+/*首页结束*/
+/*index2*/
+.sectiona{
+    width: 100%;
+    height: 60px;
+}
+.snapshot{
+    width: 100%;
+    height: 60px;
+    float: right;
+    background:#E6E6E6;
+}
+.templated{
+    width:260px;
+    height:30px;
+    float: right;
+    margin-top:20px;
+}
+.sectionb{
+    width: 100%;
+    height: 1100px;
+}
+.galler{
+    width: 15%;
+    height: 75px;
+    line-height: 75px;
+    float: left;
+    margin-left: 114px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.lists{
+    width: 75%;
+    height: 75px;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.lists ul{
+    height: 60px;
+    padding-right: 4%;
+    float: right;
+}
+.lists ul li{
+    float: left;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    border-radius: 5px;
+    background:#19B5FE;
+    color: #fff;
+    font-size: 16px;
+    margin:16px 10px; 
+    padding: 0 15px;
+    cursor:pointer;  
+}
+.active{
+    height: 45px;
+    border-radius: 5px;
+    background: #22313F;
+}
+.thumbs{
+    display: none;
+}
+/*文章页*/
+.left-boxd{
+    height: 1570px;
+}
+ .art{
+    width:100%;
+    height: 758px;
+ }
+.generics{
+    width: 90%;
+    height:230px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 50px; 
+}
+.generics-head{
+    width: 100%;
+    height: 35px;
+    font-size: 30px;
+    margin:15px auto;
+}
+.generics-articl{
+    width: 100%;
+    height: 195px;
+}
+.neque{
+    width: 90%;
+    height: 280px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.neque ul li{
+    float: left;
+}  
+.neque-pics{
+    width:15%;
+    height: 280px;
+}
+.neque-artics{
+    width: 35%;
+    height: 280px;
+}
+.pic-imgs{
+    width: 184px;
+    height: 184px;
+    border:1px solid #D9D9D9;
+    padding:15px 15px;
+}
+
+/*媒体查询*/
+/*小于980*/
+@media (max-width: 980px){
+    header{
+        height: 50%;
+    }
+    .thumbs a{
+        height: 250px; 
+    }
+    .thumbs a img{
+        width: 250px;
+        height: 250px;
+    }
+    .slider-box{
+        height:500px;
+         
+    }
+    .about-left{
+        width: 80%;
+        height: 500px;
+        padding-left: 16%;
+    }
+    .about-right{
+        width: 80%;
+        height: 500px;
+        padding-left: 16%; 
+    }
+    .lists{
+        width:65%;
+    }
+    .generics {
+        width: 85%;
+        height:300px;
+        padding-left: 10%;
+    }
+    .neque-pics {
+        width:84%;
+        height:215px;
+        padding-left: 16%;
+        margin-top: 50px;
+       }
+   .neque-artics {
+        width: 84%;
+        height: 175px;
+        padding-left: 16%;
+      }
+    .art{
+        height: 1520px;
+    }
+}
+
+/*小于414*/
+@media (max-width: 414px){
+    .slider-box{
+        width: 82%;
+        padding-left:15%;
+        padding-right:2%;
+        height: 2000px;
+    }
+    .continue{
+        left: 45px;
+    }
+    .continue-head{
+        font-size: 30px;
+    }
+    .gallery {
+        width:300px;
+        font-size:18px;
+        margin:20px auto;
+    }
+    .thumbs a{
+        width:100%; 
+    }
+    .thumbs a img{
+        width: 100%;
+        height: 100%;
+    }
+     .about{
+        height: 1365px; 
+     }
+     .about-left{
+        /*height: 900px;*/
+        height: 815px;
+     }
+     .galler{
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-left: 50px;
+     }
+     .lists {
+      width: 86%;
+      margin-top: 0px;
+      margin-left: 50px;
+    }
+    .lists ul li{
+        padding: 0 6px;
+    }
+    .generics {
+        width: 79%;
+        height: 700px;
+        padding-left: 16%;
+    }
+    .generics-head{
+        font-size: 18px;
+    }
+    .neque-artics {
+        height: 330px;
+    }
+    .art {
+    height:2650px;
+}
+}
+/*小于414*/
+@media (max-width: 320px){
+ .lists {
+    height: 208px;
+ }
+ .lists ul li {
+    width: 90%;
+    margin:5px 10px;
+ }
+ .about-left {
+    width: 77%;
+    padding-left: 19%;
+    height: 930px;
+}
+.about-right {
+    width: 77%;
+    padding-left: 19%;
+}
+.ne {
+    width: 100%;}
+.generics {
+    width: 77%;
+    height: 850px;
+    padding-left: 18%;
+}
+.art {
+    height: 2635px;
+}
+}
